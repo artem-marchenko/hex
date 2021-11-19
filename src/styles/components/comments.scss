@@ -1,0 +1,77 @@
+.comments {
+  background-color: #2eb398;
+}
+
+.comments__container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 60px 20px;
+}
+
+.comment {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.comment__group {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  max-width: 560px;
+}
+
+.comment__body {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.comment__name {
+  font-family: 'Maven', sans-serif;
+  font-size: 30px;
+  color: #d7fcf5;
+  margin: 0;
+  padding: 0;
+  line-height: 0.6;
+}
+
+.comment__profession {
+  font-family: 'Maven', sans-serif;
+  font-size: 18px;
+  color: #343435;
+  margin-top: 10px;
+}
+
+.comment__text {
+  font-family: 'Lato', sans-serif;
+  font-size: 12px;
+  color: #d7fcf5;
+  margin-top: 20px;
+}
+
+.comment__image {
+  margin: 10px;
+}
+
+.social {
+  display: flex;
+}
+
+.social__icon {
+  background-color: #a4dbd4;
+  padding: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+  color: #00ab94;
+}
+
+.social__icon:hover {
+  background-color: #7fd0c5;
+  opacity: 0.8;
+}
+
+.social__icon:not(:last-child) {
+  margin-right: 1px;
+}
